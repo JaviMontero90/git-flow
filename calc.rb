@@ -8,7 +8,7 @@ class Calc
     @a + @b
   end
 
-   def subtraction
+  def subtraction
     @a - @b
   end
 
@@ -16,4 +16,7 @@ class Calc
     @a * @b
   end
 
+  def division
+    @a / @b unless @b == 0
+  end
 end
